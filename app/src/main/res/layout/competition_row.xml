@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/competition_tv_id_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Id"/>
+    <TextView
+            android:id="@+id/competition_tv_vorname_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            app:layout_constraintLeft_toRightOf="@id/competition_tv_id_dynamic"
+            android:text="Vorname"
+            android:layout_marginLeft="8dp"/>
+
+    <TextView
+            android:id="@+id/competition_tv_nachname_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nachname"
+            android:textSize="25dp"
+            app:layout_constraintLeft_toRightOf="@id/competition_tv_vorname_dynamic"
+            android:layout_marginLeft="8dp"/>
+    <TextView
+            android:id="@+id/competition_tv_overall_score_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textSize="25dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            android:gravity="right"
+            />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/competition_tv_vorname_dynamic"
+    />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".Fragments.KurseUpperFragment">
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/textView_Kick_Kurse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kickboxen"
+                android:onClick="ButtonKickboxenPressed"
+                android:gravity="center"
+                android:paddingTop="16dp"/>
+    <View
+            android:id="@+id/Line_Kick_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/textView_Kick_Kurse"/>
+
+    <TextView
+            android:id="@+id/textView_Taek_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Taekwon Do"
+            android:onClick="ButtonTaekwondoPressed"
+            app:layout_constraintTop_toBottomOf="@id/Line_Kick_Kurse" />
+
+    <View
+            android:id="@+id/Line_Taek_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/textView_Taek_Kurse"/>
+
+        <TextView
+                android:id="@+id/textView_Pilates_Kurse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pilates"
+                android:onClick="ButtonPilatesPressed"
+                app:layout_constraintTop_toBottomOf="@id/Line_Taek_Kurse"/>
+
+    <View
+            android:id="@+id/Line_Pilates_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/textView_Pilates_Kurse"/>
+
+    <TextView
+            android:id="@+id/textView_Yoga_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Yoga"
+            android:onClick="ButtonYogaPressed"
+            app:layout_constraintTop_toBottomOf="@+id/Line_Pilates_Kurse" />
+
+    <View
+            android:id="@+id/Line_Yoga_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/textView_Yoga_Kurse"/>
+
+    <TextView
+            android:id="@+id/textView_Fasz_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            android:text="Faszien"
+            android:onClick="ButtonFaszienPressed"
+            app:layout_constraintTop_toBottomOf="@+id/Line_Yoga_Kurse" />
+
+
+    <View
+            android:id="@+id/Line_Fasz_Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/textView_Fasz_Kurse"/>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

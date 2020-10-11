@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProfilAnwesenheitActivity"
+    tools:showIn="@layout/app_bar_profil_anwesenheit">
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SucheSchuelerTableAnwesenheit">
+        <TableRow
+                android:layout_width="match_parent"
+                android:gravity="right">
+            <TextView
+                    android:text="Vornamen suchen:"
+            />
+            <EditText
+                    android:id="@+id/suche_schueler_edittext"
+                    android:text="tobias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <Button
+                    android:text="Suche"
+                    android:onClick="SearchPersonButton"
+                    android:layout_width="wrap_content"/>
+        </TableRow>
+        <TableRow
+                android:gravity="right">
+            <TextView
+                    android:text="Sportarten suchen:"/>
+            <Spinner
+                    android:id="@+id/profil_anwesenheit_spinner_sportart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown"/>
+            <Button
+                    android:text="Suche"
+                    android:onClick="SearchSportartButton"/>
+        </TableRow>
+        <TableRow android:gravity="right">
+            <TextView
+            android:text="Stunden"/>
+            <Spinner
+            android:id="@+id/profil_anwesenheit_spinner_stunden"/>
+            <Button
+                    android:text="Abschicken"
+                    android:onClick="FertigButton"/>
+        </TableRow>
+    </TableLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/SucheSchuelerTableAnwesenheit"
+    />
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/profil_anwesenheit_recyclerView_main"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/SucheSchuelerTableAnwesenheit" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Allgemeines">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/aktuelles"
+                    android:title="Aktuelles" />
+                <item
+                    android:id="@+id/team"
+
+                    android:title="Team" />
+                <item
+                    android:id="@+id/termine"
+
+                    android:title="Termine" />
+                <item
+                    android:id="@+id/kurse"
+
+                    android:title="Kurse" />
+                <item
+                    android:id="@+id/kontakt"
+
+                    android:title="Kontakt" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Sportarten">
+        <menu>
+            <item
+                android:id="@+id/taekwondo"
+                android:title="Taekwondo" />
+
+            <item
+                android:id="@+id/kickboxen"
+                android:title="Kickboxen" />
+
+            <item
+                android:id="@+id/pilatis"
+                android:title="Pilates" />
+            <item
+                android:id="@+id/yoga"
+                android:title="Yoga" />
+
+            <item
+                android:id="@+id/nordic"
+                android:title="Nordic Walking" />
+        </menu>
+    </item>
+</menu>

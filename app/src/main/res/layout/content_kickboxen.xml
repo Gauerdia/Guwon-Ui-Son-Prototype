@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="szymendera_development.guwon_app.KickboxenActivity"
+    tools:showIn="@layout/app_bar_kickboxen">
+
+    <ImageView
+        android:id="@+id/imageView_kickboxen"
+        android:layout_width="wrap_content"
+        android:layout_height="255dp"
+        android:paddingTop="45dp"
+        android:paddingBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kickboxen_skal" />
+
+
+    <TextView
+        android:id="@+id/textView_kickboxen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_kickboxen"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:paddingLeft="20pt"
+        android:paddingRight="20pt"
+         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView_kickboxen" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textView_kickboxen"
+        >
+        <TableRow>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="@string/kickboxen_reihenfolge"/>
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="@string/kickboxen_bezeichnung"/>
+        <TextView
+            android:id="@+id/textView_kickboxen_farbe"
+            android:paddingLeft="40dp"
+            android:text="@string/kickboxen_farbe"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"
+                app:layout_constraintTop_toBottomOf="@id/textView_kickboxen_farbe"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingTop="10dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="1"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="6. Kyo"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="weiß"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="2"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="5. Kyo"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="gelb"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="3"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="4. Kyo"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="orange"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="4"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="3. Kyo"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="grün"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="5"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="2. Kyo"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="blau"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="6"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="1. Kup"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="braun"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="7"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="1. Dan"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="schwarz"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="8"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="2. Dan"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="schwarz"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="9"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="3. Dan"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="schwarz"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp"
+            >
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="10"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="4. Dan"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="schwarz"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="11"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="5. Dan"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="schwarz"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="12"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="6. Dan"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text="schwarz"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:paddingLeft="40dp"
+                android:text=""/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text=""/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:text=""/>
+        </TableRow>
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

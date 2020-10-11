@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Guwon Ui Son</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_team">Team</string>
+    <string name="title_activity_termine">Termine</string>
+    <string name="title_activity_kurse">Kurse</string>
+    <string name="title_activity_ueber_uns">Über uns</string>
+    <string name="title_kurse">Kurse stehen hier</string>
+    <string name="title_termine">Termine stehen hier</string>
+    <string name="main_text">Herzlich Willkommen in unserer App!\n\n
+        Wir sind ein eingetragener Verein mit den Sportarten:\n\n
+        Taekwon-Do - Kickboxen - Pilates - Yoga - Nordic Walking\n\n
+        Der Begriff "GUWON UI SON" kommt aus dem Koreanischen und bedeutet "Helfende Hände."
+        Helfende Hände, Begeisterung am Sport und Spaß an der Bewegung werden von den
+        lizenzierten und qualifizierten Übungsleitern/in liebevoll vermittelt und gelebt.\n\n
+        Der GUWON UI SON Sportverein Castrop-Rauxel e.V. legt besonderen Wert auf die Aus- und Weiterbildung.
+        In unserem Verein sind zurzeit 18 Schwarzgurt Träger/in, wobei Rolf Becking,
+        technischer Leiter der ITF-Deutschland mit dem 9. Dan im Taekwon-Do, besonders herausragt.
+        Der monatliche Vereinsbeitrag beträgt 15 € und ermöglicht den Mitgliedern an allen Sportarten
+        die der Verein anbietet, teil zu nehmen. "\n\nEin Probetraining ist jederzeit möglich und erfordert keine
+        vorherige Anmeldung.
+    </string>
+    <string name="wfeier">
+        Liebe Vereinsmitglieder, \n
+        die diesjährige Weihnachtsfeier findet wieder im Restaurant Hao Ting am 15.12.2018 statt. Also
+        schonmal im Kalender vormerken. \n
+        Hier alle Daten:\n\n
+        Ort: Restaurant Hao Ting, Herner Straße 95, 44575 Castrop-Rauxel\n\n
+        Datum: 15.12.2018\n\n
+        Uhrzeit: 18:00 Uhr \n\n
+        Kosten:\n
+        5 Euro für Vereinsmitglieder\n
+        10 Euro ohne Mitgliedschaft(Eltern/Geschwister)\n\n
+        Kinder unter 11 Jahren essen kostenfrei
+    </string>
+    <string name="aktuelles1">TobiWan zerstört 99 Kampfsportmeisterin einer epischen Schlacht.</string>
+    <string name="title_activity_taekwondo">Taekwondo</string>
+    <string name="title_activity_kickboxen">Kickboxen</string>
+    <string name="title_activity_pilatis">Pilates</string>
+    <string name="title_activity_yoga">Yoga</string>
+    <string name="title_activity_nordic_walking">Nordic Walking</string>
+    <string name="text_kickboxen">Kickboxen ist 1974 mit dem Begriff Sportkarate von Georg F. Brückner und Mike Anderson
+        ins Leben gerufen worden. Der Begriff Sportkarate wurde durch den Begriff WAKO, World All-Style Karate und dann
+        durch den Begriff Kickboxen abgelöst.\n\nKickboxen ist eine Wettkampfdisziplin und wurde aus dem wunsch geboren
+        das Kampfsportler aus den verschiedenen Kamsportarten sich ohne Verletzungen auf einer Kampffläche oder im Ring
+        messen können.\n\nEs wird in drei Wettkampfarten
+        unterschieden:\n\nSemikontakt\n\nLeichtkontakt\n\nVollkontakt\n\nBeim Semikontakt wird der Kampf immer zur
+        Punktwertung unterbrochen. Der Wettkampf wird auf einer Kampffläche von 6 x 6 oder 8 x 8 Metern ausgetragen.
+        Gewertet werden nur Treffer mit leichtem Kontakt und zwar wie folgt:\n\n1 Punkt für Regelgerechte Handtechniken
+        zum Körper\n\n1 Punkt für Regelgerechte Fußtechniken zum Körper\n\n1 Punkt für Regelgerechte Handtechniken zum
+        Kopf\n\n2 Punkte für Regelgerechte Fußtechniken zum Kopf\n\n2 Punkte für Regelgerechte Fußtechniken gesprungen
+        zum Körper\n\n3 Punkte für Regelgerechte Fußtechniken gesprungen zum Kopf\n\nDer Unterschied von Leichtkontakt
+        und Semikontakt besteht darin, dass der Kampf nicht zur Punktwertung unterbrochen wird.\n\nBeim Vollkontakt kann
+        der Sieg auch durch K.O. erfolgen. Hier wird nicht mit leichtem Kontakt gekämpft.\n\nIn allen dei Disziplienen
+        wird Schutzkleidung getragen. Bei Vollkontakt sind es Zahnschutz, Tiefschutz und Boxhandschuhe. Beim Semi-und
+        Leichkontakt sind zusätzlich Fuß-und Schienbeinschutz erforderlich. Kopfschutz wenn gewünscht darf auch getragen
+        werden.\n\nWie in den meisten Kampfsportarten wird auch beim Kickboxen die einzelnen Erfahrungsstufen bzw. Ränge
+        der Sportler durch farbige Gürtel gekennzeichnet. Die Stufenbezeichnungen nennen sich hier Kyo, Kup und Dan.\n\n
+    </string>
+    <string name="text_yoga">Seit 2013 wird im Sportverein GUWON UI SON auch YOGA praktiziert.\n\nWir praktizieren
+        Vinyasa-Yoga, bestehend aus Körperhaltung (Asanas), Atmung (Pranayama) und Meditation (Dhyana).\n\nDie Basis
+        bilden die Körperübungen aus dem Hatha-Yoga, die zu einer Bewegungsabfolge (Vinyasa-Flows) zusammengefasst
+        werden.\n\nZiel ist es, in der Tiefenentspannung Gleichgewicht und Ruhe zu finden.\n\nYoga heißt wörtlich
+        übersetzt verbinden.\n\nIm klassischen Sinne bedeutet es, das Göttliche in dir mit dir selbst zu
+        verbinden.\n\nIn erster Linie wird beim GUWON UI SON auf die richtige Ausführung der Körperhaltung (Asana) Wert
+        gelegt. In Verbindung mit der Atmung (Ujjayi) wird die Konzentration (Dharana) verbessert und die einzelnen
+        Körperhaltungen (Asanas) werden dadurch leichter erreicht.\n\nDie YOGA Philosophie bestehend aus dem
+        achtgliedrigen Pfad (Ashtanga Marga) ist kein gradliniger Pfad und als solcher auch nicht zu verstehen.\n\n<b>
+            Ashtanga Marga
+        </b> besteht aus 8 Punkten und 2 x 5 Unterpunkten.\n\nZiel ist es, alle Punkte gleichwertig zu
+        berücksichtigen.\n\n<b>Yamas / der Umgang mit der Umwelt</b>\n\nAhimsa / Gewaltlosigkeit\n\nSatya /
+        Wahrhaftigkeit\n\nAsteya / nicht stehlen\n\nBrahmacharya / Maßhalten\n\nAparigraha / nicht horten\n\n<b>Niyamas
+            / der Umgang mit sich selbst</b>\n\nShaucha / Reinheit\n\nSantosha / Zufriedenheit\n\nTapas /
+        Selbstdisziplin\n\nSvadhyaya / Selbststudium\n\nIshvara Pranidhana / Vertrauen in eine höhere Kraft\n\n
+        <b>Asana / der Umgang mit dem Körper\n\nPranayama / Der Umgang mit dem Atem\n\nPratyahara / der Umgang mit den
+            Sinnen\n\nDharana / Konzentration\n\nDhyana / Meditation\n\nSamadhi / Die innere Freiheit
+        </b>
+    </string>
+    <string name="text_taekwondo">Taekwon-Do ist eine koreanische Kampfstilrichtung, die als offizielle Disziplin bei
+        den Olympischen Spielen vertreten sein wird. Diese Kampfkunst wurde nach dem zweiten Weltkrieg aus alten Stilen
+        in Korea entwickelt und ist in der heute praktizierten Form seit 1955 öffentlich bekannt.\n\nIn den 60 iger
+        Jahren kam Taekwon-Do nach Deutschland und ist vor allem durch seine vielfältigen Fuß-und Handtechniken schnell
+        beliebt geworden.\n\nWörtlich heißt Taekwon-Do:\n\nTAE = alle Fußtechniken KWON = alle Handtechniken DO = der
+        Weg, die Kunst, die Lehre\n\nDie Übersetzung "Do" ins Deutsche ist schwierig und wird seiner waren Bedeutung
+        nicht ganz gerecht. Es ist ein asiatischer Begriff, der im Bereich des Zen-Budhismus anzusiedeln und für viele
+        Anfänger nur schwer nachzuvollziehen ist. Anfänger die zum Taekwon-Do kommen, wollen meistens nur "Tae und Kwon"
+        lernen. Das "Do" erkennen sie viel später mit großer Geduld und Selbsterkenntnis.\n\nEin Taekwon-Do Sportler der
+        lange, regelmäßig und richtig trainiert fühlt sich wohl und stark.\n\nDieses sich stark fühlen muss auch geistig
+        verinnerlicht werden und eine positive Lebenseinstellung hervorrufen.\n\n"DO" ist also der Lebensweg geprägt
+        durch Höflichkeit, Disziplin, Gerechtigkeit, Ausdauer, Selbstkontrolle, Mut und Geduld.\n\nWird ein Anfänger
+        gefragt warum er TKD ausübt, so antwortet er spontan zur Fitness oder Selbstverteidigung oder nur so zum Spaß.
+        Er denkt also nur an sich selbst. Fragt man den gleichen Sportler nach einigen Jahren hartes und diszipliniertes
+        Training, so ist eine innere Wandlung in ihm vorgegangen. Er ist nun bereits ein fortgeschrittener TKD- Sportler
+        oder sogar schon Meister dieser Sportart. Zu erkennen ist dies an der Gürtelfarbe, die immer dunkler geworden
+        ist bis zu einem schwarzen Gürtel.\n\nEr denkt nicht mehr nur an sich. Der eventuelle Meister ist aufmerksam,
+        bescheidener, obwohl er ein hohes Maß an Selbstbewusstsein und Ehrgefühl entwickelt hat. Dieser Sportler ist nun
+        lehrbefähigt und kann als Vorbild für seine Mitmenschen dienen. Es ist also sehr wichtig, das die Grundidee des
+        "DO" nicht verloren geht.\n\nNicht nur Fuß-und Handtechniken zu lernen sondern auch gleichzeitig die geistige
+        Komponente zu.\n\nOhne die Beachtung dieser Grundidee, Geist und Körper gleichzeitig und gleichmäßig zu schulen,
+        führt TKD zu einem gefährlichen, schlechten Lebensweg und einer bösartigen Kunst.\n\nEs sollte auch nur deutlich
+        gemacht werden, dass TKD nicht nur eine Kampfkunst bzw. ein Kampfsport ist (obwohl man ihn auch nur als solchen
+        betreiben kann), sondern dass TKD eine Lebensaufgabe sein kann.\n\nDies ist natürlich als langfristiges Ziel des
+        TKD anzusehen und es braucht zunächst einmal viel Zeit, um dies zu erkennen.\n\nAuf dem Weg dahin werden den
+        Schülern aber schon Verhaltensweisen abverlangt, die sie, meist unbewusst, in die angestrebte Richtung
+        bescheidener, obwohl er ein hohes Maß an Selbstbewusstsein und Ehrgefühl entwickelt hat.\n\n(Taekwon Do Buch
+        Lan-Ung, Kim 9. Dan)\n\nNach Gen. Choi Hong Hi (Gründer des TKD) sind die 5 Ziele zu erreichenden Ziele bei
+        Taekwon – Do:\n\n1. Höflichkeit\n\n2. Integrität\n\n3. Durchhaltevermögen\n\n4. Selbstdisziplin\n\n5.
+        Unbezwinglichkeit\n\n
+    </string>
+    <string name="text_nordic">Über Nordic Walking stand nichts auf der Website ://</string>
+    <string name="text_pilates">Seit 2015 bieten wir im GUWON UI SON Sportverein Castrop-Rauxel e.V. auch Pilates
+        an.\n\nUm das Angebot auf ein solides Fundament zu stellen, haben alle unsere Übungsleiter die Fachqualifikation
+        "Kursleiter Pilates" in einem drei teiligen Lehrgang in Zusammenarbeit mit dem Bildungswerk des
+        Landessportbundes NRW erworben.\n\nArtikel in Lokalkompass\n\nJoseph Hubertus Pilates, geboren 1883 in
+        Mönchengladbach, konzipierte die nach ihm benannte Trainingsmethode zur Stärkung und Mobilisierung der
+        Muskulatur um Haltungsschäden entgegenzuwirken. Er selbst ist das beste Beispiel für das, was erreicht werden
+        kann. Sein Trainingsprogramm ermöglichte es ihm, sich von einem kränklichen Kind, belastet durch Asthma,
+        Richitis und rheumatisches Fieber, zu einem gefragten New Yorker Fitnesstrainer für die dort ansässigen
+        Broadway-Tänzer zu entwickeln.\n\nDie Grundprinzipien des Pilates
+        sind:\n\nKonzentration\n\nZentrierung\n\nKontrolle\n\nAtmung\n\nPräzision\n\nBewegungsfluss\n\nDie Übungen sind
+        so konzipiert, dass deren Intensität und Ausführung dem jeweiligen Trainingsstand individuell angepasst werden
+        können – ganz gleich ob Anfänger, Fortgeschrittene oder Senioren.\n\nZitat von Joseph H. Pilates:\n\n<i>"Nach 10
+            Stunden Pilates spürst Du den Unterschied,\n\nnach 20 Stunden Pliates siehst Du den Unterschied,\n\nnach 30
+            Stunden Pliates hast Du einen neuen Körper."</i>\n\n
+    </string>
+    <string name="title_activity_aktuelles">Aktuelles</string>
+    <string name="title_activity_aktuelles_sub">AktuellesSubActivity</string>
+    <string name="year">
+        <u>
+            <b>
+                <i>2018</i>
+            </b>
+        </u>
+    </string>
+    <string name="rolf_text"><b>Rolf Becking</b>\n\n9.Dan\n\nTechnischer Leiter <b>ITF Deutschland</b>\nTechnischer
+        Leiter <b>Guwon Ui Son</b>\nÜbungsleiter C des
+        <b>Landessportbundes</b>
+    </string>
+    <string name="mario_text"><b>Mario Grilec</b>\n\n5. Dan Taekwon-Do\n\nÜbungsleiter C des <b>Landessportbundes</b>\nPilates
+        Fachqualifikation des\n<b>Landessportbundes</b>
+    </string>
+    <string name="tobi_text"><b>Tobias Barth</b>\n\n4.Dan\n\nÜbungsleiter C des <b>Landessportbundes</b>\n<b>Bachelor of
+        Science</b>, Schwerpunkt:\n<b>Freizeit, Gesundheit, Training</b>\n
+    </string>
+    <string name="maria_text"><b>Maria Theresa Gottschlag</b>\n\n1.Dan Taekwon-Do\n1.Dan Kickboxen\n\n<b>Bachelor of Science</b>\nSchwerpunkt:<b>Prävention und\nRehabilitation</b>\nÜbungsleiter C des <b>Landessportbundes</b>\n
+    </string>
+    <string name="till_text"><b>Till Schmeing</b>\n\n3.Dan Taekwon-Do\nÜbungsleiter C des <b>Landessportbundes</b>\n
+    </string>
+    <string name="klaus_text"><b>Klaus Hentschel</b>\n\n1.Dan Taekwon-Do\nÜbungsleiter C des <b>Landessportbundes</b>\n
+    </string>
+    <string name="gisbert_text"><b>Gisbert Krone</b>\n\n2.Dan Taekwon-Do\nÜbungsleiter C des <b>Landessportbundes</b>\nPilates Fachqualifikation des \n<b>Landessportbundes</b>
+    </string>
+    <string name="michael_text"><b>Michael Gerhardt</b>\n\n1.Dan Taekwon-Do\nÜbungsleiter C des <b>Landessportbundes</b>\nPilates Fachqualifikation des \n<b>Landessportbundes</b>
+    </string>
+    <string name="guenter_text"><b>Günter Lubnau</b>\n\n1.Dan Taekwon-Do\n<b>Fachlererlizenz</b>\n Bayerischer Fachverband für \nasiatische Kampfsportart
+    </string>
+    <string name="christiane_text"><b>Christiane Heinzelmann</b>\n\n Übungsleiter C des <b>Landessportbundes</b>\nÜbungsleiter B des <b>Landessportbundes</b>\n
+    </string>
+    <string name="uwe_text"><b>Uwe Kobusinski</b>\n\n<b>3.Dan Karate</b>\n
+    </string>
+    <string name="detlef_text"><b>Detlef Schulz</b>\n\n<b>1.Dan Kickboxen</b>\n Übungsleiter C des <b>Landessportbundes</b>\n
+    </string>
+    <string name="silvia_text"><b>Silvia Füser</b>\n\nÜbungsleiter C des <b>Landessportbundes</b>\n<b>YOGA</b>-Fitness LehrTrainer B (LSB)\n
+    </string>
+    <string name="norbert_text"><b>Norbert Marek</b>\n\n<b>4.Dan Kickboxen</b>\n<b>1.Dan Dju Ssu</b>\n Übungsleiter C des <b>Landessportbundes</b>\n<b>YOGA</b>-Fitness LehrTrainer A (LSB)\n<b>KRAFT</b>-Fitness LehrTrainer B (LSB)\n<b>Personal Trainer</b> (LSB)\n
+    </string>
+    <string name="taekwondo_kurse">
+        <b>Taekwon-Do</b>
+    </string>
+    <string name="kickboxen_kurse">
+        <b>Kickboxen</b>
+    </string>
+    <string name="pilates_kurse">
+        <b>Pilates</b>
+    </string>
+    <string name="yoga_kurse">
+        <b>Yoga</b>
+    </string>
+    <string name="faszien_kurse">
+        <b>Faszien</b>
+    </string>
+    <string name="title_activity_kurse_sub">KurseSubActivity</string>
+    <string name="title_activity_kurse_kick">Kickbox - Kurse</string>
+    <string name="title_activity_kurse_taek">Taekwon Do - Kurse</string>
+    <string name="title_activity_kurse_pilates">Pilates - Kurse</string>
+    <string name="title_activity_kurse_yogo">Yoga - Kurse</string>
+    <string name="title_activity_kurse_fasz">Faszien - Kurse</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_qr">QRActivity</string>
+    <string name="title_activity_barcode_capture">BarcodeCaptureActivity</string>
+    <string name="title_activity_qrview">QRViewActivity</string>
+    <string name="title_activity_qrscan">QRScanActivity</string>
+    <string name="kickboxen_reihenfolge">
+        <b>Reihenfolge</b>
+    </string>
+    <string name="kickboxen_bezeichnung">
+        <b>Bezeichnung</b>
+    </string>
+    <string name="kickboxen_farbe">
+        <b>Farbe</b>
+    </string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_activity_suche_schueler">Schüler-Suche</string>
+    <string name="title_activity_schueler_profil">Schüler-Profil</string>
+    <string name="title_activity_profil_anwesenheit">Schüler-Anwesenheit</string>
+    <string name="title_activity_profil_pruefung">Schüler-Prüfungen</string>
+    <string name="title_activity_profil_turnier">Schüler-Turnier</string>
+    <string name="title_activity_profil_spezielles">Spezielle Ereignisse</string>
+    <string name="title_activity_profil_kalender">Schüler-Kalender</string>
+    <string name="profil">Profil</string>
+    <string name="heute_anwesend">Heute Anwesend</string>
+    <string name="rang_erhoehen">Rang Erhöhen</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_rangliste">Rangliste</string>
+    <string name="title_activity_kontakt">Kontakt</string>
+    <string name="title_activity_events">Events</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_upload_file">Datei hochladen</string>
+    <string name="title_activity_schueler_profil_upload">Bild eines Schülers hochladen</string>
+    <string name="title_activity_banner_upload">Banner hochladen</string>
+    <string name="notification_channel_description">Notification Description</string>
+    <string name="title_activity_message_overview">Nachrichten Überblick</string>
+</resources>

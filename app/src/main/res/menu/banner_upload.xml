@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/profil"
+          android:title="Profil"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item
+            android:title="messages"
+            android:id="@+id/messages"
+            android:icon="@drawable/ic_message_white"
+            android:orderInCategory="100"
+            app:showAsAction="always" />
+</menu>

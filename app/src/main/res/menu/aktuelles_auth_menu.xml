@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/profil"
+            android:orderInCategory="100"
+            android:title="Profil"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/banner_aendern"
+            android:orderInCategory="100"
+            android:title="Banner ändern"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/sub_banner_aendern"
+            android:orderInCategory="100"
+            android:title="Sub-Banner ändern"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/banner_masse"
+            android:orderInCategory="100"
+            android:title="Banner-Maße"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/clean_up"
+            android:orderInCategory="100"
+            android:title="Clean-Up"
+            app:showAsAction="never" />
+    <item
+            android:title="messages"
+            android:id="@+id/messages"
+            android:icon="@drawable/ic_message_white"
+            android:orderInCategory="100"
+            app:showAsAction="always" />
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/events"
+        android:orderInCategory="100"
+        android:title="Events"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/kalender"
+        android:orderInCategory="100"
+        android:title="Kalender"
+        app:showAsAction="never" />
+    <item
+            android:id="@+id/item_quiz"
+            android:orderInCategory="100"
+            android:title="Quiz"
+            app:showAsAction="never"
+        />
+    <item
+            android:id="@+id/item_rangliste"
+            android:orderInCategory="100"
+            android:title="Rangliste"
+            app:showAsAction="never"
+    />
+    <item
+            android:id="@+id/item_log_out"
+            android:orderInCategory="100"
+            android:title="Log_Out"
+            app:showAsAction="never"
+    />
+    <item
+            android:title="messages"
+            android:id="@+id/messages"
+            android:icon="@drawable/ic_message_white"
+            android:orderInCategory="100"
+            app:showAsAction="always" />
+</menu>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="szymendera_development.guwon_app">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo3"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/logo_small"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".MessageOverviewActivity"
+                android:label="@string/title_activity_message_overview"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".BannerUploadActivity"
+                android:label="@string/title_activity_banner_upload"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".SchuelerProfilUploadActivity"
+                android:label="@string/title_activity_schueler_profil_upload"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".UploadFileActivity"
+                android:label="@string/title_activity_upload_file"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".TeamActivity"
+                android:label="@string/title_activity_team"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".TermineActivity"
+                android:label="@string/title_activity_termine"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".KurseActivity"
+                android:label="@string/title_activity_kurse"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".TaekwondoActivity"
+                android:label="@string/title_activity_taekwondo"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".KickboxenActivity"
+                android:label="@string/title_activity_kickboxen"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".PilatisActivity"
+                android:label="@string/title_activity_pilatis"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".YogaActivity"
+                android:label="@string/title_activity_yoga"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".NordicWalkingActivity"
+                android:label="@string/title_activity_nordic_walking"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".AktuellesActivity"
+                android:label="@string/title_activity_aktuelles"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".QRViewActivity"
+                android:label="@string/title_activity_qrview"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".QRScanActivity"
+                android:label="@string/title_activity_qrscan"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".ProfilActivity"
+                android:label="@string/title_activity_profil"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".SucheSchuelerActivity"
+                android:label="@string/title_activity_suche_schueler"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".SchuelerProfilActivity"
+                android:label="@string/title_activity_schueler_profil"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".ProfilAnwesenheitActivity"
+                android:label="@string/title_activity_profil_anwesenheit"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".ProfilPruefungActivity"
+                android:label="@string/title_activity_profil_pruefung"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".ProfilTurnierActivity"
+                android:label="@string/title_activity_profil_turnier"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".ProfilKalenderActivity"
+                android:label="@string/title_activity_profil_kalender"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".QuizActivity"
+                android:label="@string/title_activity_quiz"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".RanglisteActivity"
+                android:label="@string/title_activity_rangliste"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".KontaktActivity"
+                android:label="@string/title_activity_kontakt"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".EventsActivity"
+                android:label="@string/title_activity_events"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <service
+                android:name=".Utils.PhotoDownloadService"
+                android:exported="false">
+        </service>
+
+        <receiver
+                android:name=".Utils.AlarmReceiver"
+                android:enabled="true"/>
+
+        <service
+                android:name=".Utils.NotificationService"
+                android:enabled="true"
+                android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+                android:name=".Utils.MessageService"
+                android:exported="false"
+                android:permission="android.permission.BIND_JOB_SERVICE">
+        </service>
+        <service
+                android:name=".Utils.CopyService"
+                android:exported="false"
+                android:permission="android.permission.BIND_JOB_SERVICE">
+        </service>
+        <activity
+                android:name=".ResultActivity"
+                android:excludeFromRecents="true"
+                android:label="Notification"
+                android:launchMode="singleTask"
+                android:taskAffinity=""/>
+    </application>
+
+</manifest>

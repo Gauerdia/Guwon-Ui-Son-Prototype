@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/tv_anwesenheit_vorname_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Vorname"/>
+
+    <TextView
+            android:id="@+id/tv_anwesenheit_nachname_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nachname"
+            android:textSize="25dp"
+            app:layout_constraintLeft_toRightOf="@id/tv_anwesenheit_vorname_dynamic"
+            android:layout_marginLeft="8dp"/>
+    <!--<TextView-->
+            <!--android:id="@+id/tv_anwesenheit_anwesenheit"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Anwesend?"-->
+            <!--android:textSize="25dp"-->
+            <!--app:layout_constraintLeft_toRightOf="@id/tv_anwesenheit_nachname_dynamic"-->
+            <!--android:gravity="right"-->
+            <!--app:layout_constraintRight_toRightOf="parent"/>-->
+    <ImageView
+            android:id="@+id/iv_anwesenheit"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:src="@drawable/cross"
+            android:gravity="right"
+            app:layout_constraintRight_toRightOf="parent"
+    />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView_vorname_dynamic"
+    />
+</android.support.constraint.ConstraintLayout>

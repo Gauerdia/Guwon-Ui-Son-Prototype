@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".Fragments.KurseTaekwondoFragment">
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Taekwon-Do-Trainingszeiten"
+            android:textSize="18dp"
+            android:id="@+id/tv_headline"
+    />
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_headline">
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+        android:gravity="center">
+            <TableRow>
+                <TextView/>
+                <TextView
+                        android:text="Montag"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="20dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                        android:text="Zeit"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+                <TextView
+                        android:text="Trainer"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+                <TextView
+                        android:text="Klasse"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="17:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Günter Lubnau"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Ab 6 Jahre"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="18:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="18:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Günter Lubnau"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Gelb-Grün"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="18:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Tobias Barth"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Gemischt"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                        android:text=" "/>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Tobias Barth"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Grün-Schwarz"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="20:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+                <TextView android:text="Mittwoch"
+                          android:textStyle="bold"
+                          android:gravity="center"
+                          android:textSize="20dp"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                        android:text="Zeit"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+                <TextView
+                        android:text="Trainer"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+                <TextView
+                        android:text="Klasse"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="18:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Tobias Barth"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Gemischt"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Tobias Barth"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Gemischt"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="20:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Gisbert Krone"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Ab 30 Jahre"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="20:30 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+                <TextView
+                        android:text="Freitag"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="20dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="   "/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                        android:text="Zeit"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+                <TextView
+                        android:text="Trainer"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+                <TextView
+                        android:text="Klasse"
+                        android:paddingLeft="30dp"
+                        android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="17:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Günter Lubnau"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Ab 6 Jahre"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="18:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="18:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Rolf Becking"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Ab Grün"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="19:00-"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Tobias Barth"
+                          android:paddingLeft="30dp"/>
+                <TextView android:text="Ab Rot"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="21:00 Uhr"
+                          android:paddingLeft="30dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                        android:text=" "/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                        android:text=" "/>
+
+            </TableRow>
+            <TableRow>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/black"/>
+            </TableRow>
+            <TableRow>
+                <TextView/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

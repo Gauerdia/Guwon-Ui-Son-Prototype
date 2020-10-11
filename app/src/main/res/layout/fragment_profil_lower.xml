@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.ProfilLowerFragment"
+             android:background="@color/White">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                    android:text="Ranglisten-Platz"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:gravity="center"/>
+            <TextView
+                    android:id="@+id/tv_ranglistenplatz"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="22dp"/>
+            <TextView
+                    android:text="Gesamtpunkte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:gravity="center"/>
+            <TextView
+                    android:id="@+id/tv_gesamtpunkte"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="22dp"/>
+            <TextView
+                    android:text="Trainingspunkte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:gravity="center"/>
+            <TextView
+                    android:id="@+id/tv_trainingspunkte"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="22dp"/>
+            <TextView
+                    android:text="Quizpunkte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:gravity="center"/>
+            <TextView
+                    android:id="@+id/tv_quizpunkte"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="22dp"/>
+            <TextView
+                    android:text="Turniere und Lehrgänge"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:gravity="center"/>
+            <TextView
+                    android:id="@+id/tv_eventpunkte"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="22dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
+
+<!--<TableLayout-->
+<!--android:id="@+id/profil_lower_table_layout"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:nestedScrollingEnabled="true">-->
+<!--<TableRow-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:text="Rang:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_tv_rang"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="       "/>-->
+<!--</TableRow>-->
+<!--&lt;!&ndash;**********TAEKWON DO PART******************&ndash;&gt;-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp"-->
+<!--&gt;-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_headline_taekwon_do"-->
+            <!--android:text="Taekwon-Do"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+    <!--/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_taekwon_do_punkte"-->
+            <!--android:text="Gesamtpunkte:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_taekwon_do_punkte_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_taekwon_do_training"-->
+            <!--android:text="Training:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_taekwon_do_training_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_taekwon_do_quiz"-->
+            <!--android:text="Quiz:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_taekwon_do_quiz_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_taekwon_do_turnier"-->
+            <!--android:text="Turniere:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_taekwon_do_turnier_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_taekwon_do_lehrgaenge"-->
+            <!--android:text="Lehrgänge:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_taekwon_do_lehrgaenge_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--&lt;!&ndash;*****************TAEKWON DO PART********************&ndash;&gt;-->
+<!--&lt;!&ndash;**********Kickboxen PART******************&ndash;&gt;-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp"-->
+<!--&gt;-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_headline_kickboxen"-->
+            <!--android:text="Kickboxen"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+    <!--/>-->
+    <!--<TableRow>-->
+        <!--<TextView-->
+                <!--android:text="     "/>-->
+    <!--</TableRow>-->
+    <!--&lt;!&ndash;app:layout_constraintTop_toBottomOf="@id/profil_headline_taekwon_do"&ndash;&gt;-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_kickboxen_punkte"-->
+            <!--android:text="Gesamtpunkte:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_kickboxen_punkte_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_kickboxen_training"-->
+            <!--android:text="Training:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_kickboxen_training_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_kickboxen_quiz"-->
+            <!--android:text="Quiz:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_kickboxen_quiz_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_kickboxen_turnier"-->
+            <!--android:text="Turniere:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_kickboxen_turnier_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_kickboxen_lehrgaenge"-->
+            <!--android:text="Lehrgänge:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_kickboxen_lehrgaenge_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--&lt;!&ndash;*****************KICKBOXEN PART********************&ndash;&gt;-->
+<!--&lt;!&ndash;**********YOGA PART******************&ndash;&gt;-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp"-->
+<!--&gt;-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_headline_yoga"-->
+            <!--android:text="Yoga"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+    <!--/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_yoga_punkte"-->
+            <!--android:text="Gesamtpunkte:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_yoga_punkte_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_yoga_training"-->
+            <!--android:text="Training:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_yoga_training_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_yoga_quiz"-->
+            <!--android:text="Quiz:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_yoga_quiz_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_yoga_turnier"-->
+            <!--android:text="Turniere:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_yoga_turnier_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_yoga_lehrgaenge"-->
+            <!--android:text="Lehrgänge:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_yoga_lehrgaenge_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--&lt;!&ndash;*****************YOGA PART********************&ndash;&gt;-->
+<!--&lt;!&ndash;**********Pilates PART******************&ndash;&gt;-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp"-->
+<!--&gt;-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_headline_Pilates"-->
+            <!--android:text="Pilates"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+    <!--/>-->
+    <!--<TableRow>-->
+        <!--<TextView-->
+                <!--android:text="     "/>-->
+    <!--</TableRow>-->
+    <!--&lt;!&ndash;app:layout_constraintTop_toBottomOf="@id/profil_headline_taekwon_do"&ndash;&gt;-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_pilates_punkte"-->
+            <!--android:text="Gesamtpunkte:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_pilates_punkte_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_pilates_training"-->
+            <!--android:text="Training:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_pilates_training_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_pilates_quiz"-->
+            <!--android:text="Quiz:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_pilates_quiz_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_pilates_turnier"-->
+            <!--android:text="Turniere:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_pilates_turnier_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--<TableRow-->
+        <!--android:layout_marginLeft="30dp">-->
+    <!--<TextView-->
+            <!--android:id="@+id/profil_pilates_lehrgaenge"-->
+            <!--android:text="Lehrgänge:"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+            <!--android:text=" content "-->
+            <!--android:id="@+id/profil_pilates_lehrgaenge_dyn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+<!--</TableRow>-->
+<!--&lt;!&ndash;***************** PILATES PART********************&ndash;&gt;-->
+
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--<TableRow>-->
+    <!--<TextView-->
+            <!--android:text="     "/>-->
+<!--</TableRow>-->
+<!--</TableLayout>-->

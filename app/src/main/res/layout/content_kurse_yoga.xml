@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="szymendera_development.guwon_app.KurseActivity"
+    tools:showIn="@layout/app_bar_kurse_yoga">
+
+    <TableRow
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/imageView_taek_kurse"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/taek_button" />
+
+        <ImageView
+            android:id="@+id/imageView_kick_kurse"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:layout_constraintLeft_toRightOf="@id/imageView_taek_kurse"
+            app:srcCompat="@drawable/kick_button" />
+
+        <ImageView
+            android:id="@+id/imageView_pilates_kurse"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:layout_constraintLeft_toRightOf="@id/imageView_kick_kurse"
+            app:srcCompat="@drawable/pilates_button" />
+
+    </TableRow>
+    <TableRow>
+
+
+
+        <ImageView
+            android:id="@+id/imageView_faszien_kurse"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:layout_constraintLeft_toRightOf="@id/imageView_pilates_kurse"
+            app:srcCompat="@drawable/fasz_button" />
+
+        <ImageView
+            android:id="@+id/imageView_yoga_kurse"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/yoga_button"
+            app:layout_constraintLeft_toRightOf="@id/imageView_faszien_kurse" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Yoooogaa"/>
+    </TableRow>
+</TableLayout>

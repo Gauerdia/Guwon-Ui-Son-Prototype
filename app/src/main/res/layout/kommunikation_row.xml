@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+            android:id="@+id/komm_datum_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Datum"/>
+    <TextView
+            android:id="@+id/komm_betreff_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:text="Betreff"/>
+
+    <TextView
+            android:id="@+id/komm_gelesen_dynamic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gelesen"
+            android:textSize="25dp"
+            app:layout_constraintLeft_toRightOf="@id/komm_betreff_dynamic"
+            android:layout_marginLeft="8dp"
+            android:gravity="right"
+            android:paddingRight="10dp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/komm_gelesen_dynamic"
+    />
+</LinearLayout>

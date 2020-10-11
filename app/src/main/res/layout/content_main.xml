@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                tools:context="szymendera_development.guwon_app.MainActivity">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TableRow
+                    android:paddingTop="50dp">
+
+                <android.support.v4.view.ViewPager
+                        android:id="@+id/pager"
+                        android:layout_width="fill_parent"
+                        android:layout_height="255dp"
+                        android:layout_alignParentTop="true"/>
+            </TableRow>
+
+            <TableRow>
+
+                <com.viewpagerindicator.CirclePageIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="bottom"
+                        android:padding="10dip"
+                        app:centered="true"
+                        app:snap="false"
+                        app:fillColor="#df0623"
+                        app:pageColor="#fff"
+                />
+
+            </TableRow>
+            <TableRow>
+
+                <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:id="@+id/main_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:paddingLeft="20pt"
+                            android:paddingRight="20pt"
+                            android:paddingBottom="20dp"
+                            android:scrollbars="vertical"
+                            android:text="@string/main_text"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintTop_toBottomOf="@+id/pager"/>
+                </ScrollView>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

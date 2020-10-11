@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="szymendera_development.guwon_app.KurseActivity"
+    tools:showIn="@layout/app_bar_kurse">
+
+    <FrameLayout
+            android:id="@+id/kurse_upper_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <FrameLayout
+            android:id="@+id/kurse_lower_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:layout_constraintTop_toBottomOf="@+id/kurse_upper_fragment"
+            android:layout_marginTop="30dp"/>
+
+</android.support.constraint.ConstraintLayout>
