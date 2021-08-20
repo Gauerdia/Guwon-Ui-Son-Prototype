@@ -1,6 +1,7 @@
 <?php
 //echo 'JDecode Echo: ';
-$link = mysqli_connect("mysql04.manitu.net", "u24888", "pWAXVAeaVEXu", "db24888");
+$link = mysqli_connect("****", "****", "****", "****");
+
 if (!$link) {
     echo 'Verbindung schlug fehl';
 }

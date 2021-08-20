@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("mysql04.manitu.net", "u24888", "pWAXVAeaVEXu", "db24888");
+$link = mysqli_connect("****", "****", "****", "****");
 if (!$link) {
     echo 'Verbindung schlug fehl';
 }
@@ -7,9 +7,7 @@ if (mysqli_connect_errno()) {
     echo 'Connection Error';
 }
 
-//$body = file_get_contents('php://input');
-//$postvars = json_decode($body, true);
-//$id = $postvars["id"];
+
 
 if(!mysqli_query($link, "SELECT * FROM Guwon_Kalender WHERE vorname = 'Marc'")){
     echo ("Error description: " . mysqli_error($link));

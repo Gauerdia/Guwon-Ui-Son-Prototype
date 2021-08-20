@@ -1,6 +1,5 @@
 <?php
-//echo 'JDecode Echo: ';
-$link = mysqli_connect("mysql04.manitu.net", "u24888", "pWAXVAeaVEXu", "db24888");
+$link = mysqli_connect("****", "****", "****", "****");
 if (!$link) {
     echo 'Verbindung schlug fehl';
 }
@@ -33,8 +32,6 @@ $last_quiz = $postvars["Last_Quiz"];
 
 $j = array('vorname'=>$vorname, 'nachname'=>$nachname);
 echo json_encode($j);
-//$query = "INSERT INTO Schueler_Table (vorname, nachname) VALUES('$vorname', '$nachname')";
-//mysqli_query($link,$query) or trigger_error(mysqli_error($link)." in ".$query);
 $query = "INSERT INTO Guwon_Schueler (vorname, nachname, Gibon,Teul, Hanbon,
                             Gyeokpa,Daeryeon,Chayu,Hosinsul,Pruefungs_Bereit,
                             Rang,Anwesenheit, Anwesenheit_num, IsSchueler, 
