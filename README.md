@@ -62,9 +62,9 @@ This application works best with the Android Studio IDE. The newest version shou
 smartphone emulator, at least with the version of the 20. August 2021, however it is very likely, that upcoming
 released do not support deprecated functions anymore. 
 
-## Screenshot
+## Screenshots
 
-The Profile of the member            |  The upper part of the team page
+The profile of the member            |  The upper part of the team page
 :-------------------------:|:-------------------------:
 <img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screennshot_profile.png?raw=true" width="300" height="580">  |  <img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screennshot_team.png?raw=true" width="300" height="580">
 The contact functionality         
