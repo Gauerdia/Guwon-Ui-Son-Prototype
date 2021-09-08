@@ -18,7 +18,7 @@ applications specifically designed for android. It works smoother with the andro
 state-of-the-art programming language for this purpose before. 
 
 ### Backend:
-I used the MySQL-database of a webhosting server which i rented for testing server communication and for practicing web
+I used the MySQL-database of a webhosting server which I rented for testing server communication and for practicing web
 development. However, because of the very nature of webhosting, I was not able to utilize a framework like laravel, how
 I originally planned to do. So the PHP-code has been done fairly simple. Because of the lack of security configurations
 it is not advisable to use this approach in a released version. For demonstating the own experience with PHP and different
@@ -27,18 +27,20 @@ algorithmic challenges it is acceptable, though.
 ## Content
 This version contains several different pages:
 The superficial part, that is available to anyone using the app, contains pages like:
-Markup : * General
-             * News, Team, Schedules of the different arts, important dates, contact form
-             * General information about every martial arts offered
-             * A messaging functionality
+Markup : 
+* General
+  * News, Team, Schedules of the different arts, important dates, contact form
+  * General information about every martial arts offered
+  * A messaging functionality
                  
 For people who are members of the club there is a profile part, where they find more pages:
-Markup : * Profile
-             * Overview of their rang and their gamification status
-             * Search function, attendence, events, calendar
-             * Quizes, to test the theoretical parts regularly
-             * high score for the quizes 
-                 * This was supposed to be the base for a real life price at the end of every season
+Markup : 
+* Profile
+  * Overview of their rang and their gamification status
+  * Search function, attendence, events, calendar
+  * Quizes, to test the theoretical parts regularly
+  * high score for the quizes 
+    * This was supposed to be the base for a real life price at the end of every season
 
 ## Annotations
 While I put a lot of time and work into this project, it still does not reflect my current state of skill
