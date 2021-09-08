@@ -27,14 +27,12 @@ algorithmic challenges it is acceptable, though.
 ## Content
 This version contains several different pages:
 The superficial part, that is available to anyone using the app, contains pages like:
-Markup : 
 * General
   * News, Team, Schedules of the different arts, important dates, contact form
   * General information about every martial arts offered
   * A messaging functionality
                  
-For people who are members of the club there is a profile part, where they find more pages:
-Markup : 
+For people who are members of the club there is a profile part, where they find more pages: 
 * Profile
   * Overview of their rang and their gamification status
   * Search function, attendence, events, calendar
