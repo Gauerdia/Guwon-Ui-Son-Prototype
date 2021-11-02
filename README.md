@@ -64,6 +64,6 @@ released do not support deprecated functions anymore.
 
 The profile of the member            |  The upper part of the team page
 :-------------------------:|:-------------------------:
-<img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screennshot_profile.png?raw=true" width="300" height="580">  |  <img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screennshot_team.png?raw=true" width="300" height="580">
+<img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screennshot_profile.png?raw=true" width="300" height="680">  |  <img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screennshot_team.png?raw=true" width="300" height="680">
 The contact functionality         
-<img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screenshot_kontakt.png?raw=true" width="300" height="580">  
+<img src="https://github.com/Gauerdia/Guwon_App/blob/master/Readme_content/screenshot_kontakt.png?raw=true" width="300" height="680">  
